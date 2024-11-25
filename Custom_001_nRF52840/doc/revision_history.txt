@@ -1,0 +1,4 @@
+Revision History:
+
+2024/11/25: New board created as Custom_001_nRF52840
+            Custom_001_nRF52840 hardware files added to doc folder

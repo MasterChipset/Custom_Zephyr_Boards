@@ -1,0 +1,6 @@
+if BOARD_CUSTOM_001_NRF52840
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_CUSTOM_001_NRF52840

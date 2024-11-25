@@ -1,0 +1,5 @@
+board:
+  name: Custom_001_nRF52840
+  vendor: ZRiver
+  socs:
+    - name: nrf52840
