@@ -30,7 +30,7 @@
 	buttons {
 		compatible = "gpio-keys";
 		button0: button_0 {
-			gpios = <&gpio1 0 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+			gpios = <&gpio1 0 (GPIO_ACTIVE_LOW)>;
 			label = "Magnetic Sensor 0";
 			zephyr,code = <INPUT_KEY_0>;
 		};

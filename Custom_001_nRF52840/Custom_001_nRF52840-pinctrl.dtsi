@@ -75,4 +75,20 @@
 		};
 	};
 
+	gpio1_0_default: gpio1_0_default {
+        group1 {
+            psels = <1 0>;
+			low-power-enable;
+            bias-disable;
+        };
+    };
+
+    gpio1_0_sleep: gpio1_0_sleep {
+        group1 {
+            psels = <1 0>;
+            low-power-enable;
+            bias-disable;
+        };
+    };
+
 };
